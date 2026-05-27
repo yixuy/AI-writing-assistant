@@ -27,7 +27,7 @@ spellCheckRouter.post("/", async (req, res) => {
             content: text,
           },
         ],
-        max_tokens: 5,
+        max_tokens: 500,
         n: 1,
         temperature: 0.7,
       },
